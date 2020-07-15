@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/style1.css">
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Yogendra Kumar</title>
+</head>
+<body class="full-height-grow">
+    <div id="content-area">
+        <header class="main-header">                
+                <a href="index.html" class="brand-logo">
+                    <div class="brand-logo-name">YK</div>
+                </a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a id="active" href="project.html">Projects</a></li>
+                        <li><a href="certificate.html">Certification</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <a id="nav-toggle" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </header>
+        <div id="mobile-nav">
+                <a href="about.html">About</a>
+                <a href="project.html">Projects</a>
+                <a href="certificate.html">Certification</a>
+                <a href="contact.html">Contact</a>
+          </div>
+        <section class="main-section">
+            <div class="index-page-content">
+                <div class="project-heading highlight">Projects</div>
+                <div class="projects">                                  
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer class="main-footer">
+            <div class="footer-content">
+                &copy 2020 Yogendra Kumar V R
+            </div>
+        
+    </footer>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("mobile-nav");
+          if (x.style.display === "flex") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "flex";
+          }
+        }
+        </script>
+        <script src="project.js"></script>
+</body>
+</html>

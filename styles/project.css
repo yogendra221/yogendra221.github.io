@@ -1,0 +1,46 @@
+.project-heading {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+
+}
+
+.projects {
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 4px;
+}
+
+.project {
+    font-size: 1rem;
+    text-decoration: none;
+    color: inherit;
+    border: 2px solid #b4b4b4;
+    padding: 1rem;
+    border-radius: 1rem;
+    flex: 40%;
+    max-width: 40%;
+    margin-top: 2rem;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.project:hover {
+    border: solid 2px #08fdd8;
+}
+
+.project-name {
+    font-size: 1.5rem;
+}
+
+.project-desc {
+    color: #b4b4b4;
+}
+
+@media screen and (max-width: 650px) {
+    .project {
+        flex: 90%;
+        max-width: 90%;
+    }
+}

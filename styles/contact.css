@@ -1,0 +1,45 @@
+.contact-heading {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+
+}
+
+#content-area p{
+    margin: 0;
+}
+
+.contact-content {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-left: 2rem;
+    max-width: 70vw;
+    color: #b4b4b4;
+    margin-bottom: 2rem;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.profile-card a {
+    display: flex;
+    align-content: space-around;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: white;
+    margin-top: 1rem;
+}
+
+.profile-card i {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+@media (max-width: 650px) {
+    .contact-heading, .contact-content {
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.index-page-content {
+    padding-left: 2rem;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.tag {
+    user-select: none;
+    position: inherit;
+    color: #b4b4b4;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: 'Caveat', sans-serif;
+}
+
+.tag-line {
+    font-size: 1rem;
+    user-select: none;
+    color: #b4b4b4;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+.content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#body-open {
+    margin-left: 2rem;
+}
+
+#h1-open {
+    margin-top: 2rem;
+    margin-left: 4em;
+}
+
+#body-close {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+#html-close {
+    margin-top: 2rem;
+}
+
+.link {
+    color: #08fdd8;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: white;
+}
+
+@media (max-width: 650px) {
+    .index-page-content {
+        padding-left: 0;
+    }
+
+    .content p{
+        font-size: 2rem;
+    }
+}
